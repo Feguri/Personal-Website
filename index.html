@@ -15,7 +15,12 @@
 </head>
 <body>
     <header>
-        <span class="logo">Felipe Serrou Camy de Paiva</span>
+        <!-- logo: flexbox -->
+        <div class="logo-container">
+            <span class="logo">Felipe Serrou Camy de Paiva</span>
+        </div>
+
+        <!-- nav: flexbox -->
         <nav>
             <ul>
                 <li><a href="">Home</a></li>
@@ -26,12 +31,27 @@
         </nav>
     </header>
     <main>
-        <section class="intro">
-            <div class="intro-container">
-                <h1>Hello. I'm a web development student.</h1>
-                <p>(and yes, I like space...)</p>
-            </div>
 
+        <!-- Introduction Section -->
+        <section class="intro">
+            <div class="section">
+                <div class="intro-container">
+                    <h1>Hello. I'm a Web Development student.</h1>
+                </div>
+                <div class="about-me">
+                    <article>
+                        <h2>About me</h2>
+                        <p>I'm currently studying Web Development at Codecademy. My goal is to become a Full-Stack Engineer.</p>
+                        <p>I'm originally from Brazil, but I'm currently studying </p>
+                    </article>
+                    <div style="width: 10%;"></div>
+                    <figure>
+                        <img class="picture" src="https://avatars.githubusercontent.com/u/82775159?s=400&u=ac919126cda31d995dd2fff53f70b8d4e613e8a8&v=4" alt="">
+                        <figcaption><p>This is me right after I finished <a href="">Weathery</a> , my first UI program.</p></figcaption>
+                    </figure>
+                    
+                </div>
+            </div>
         </section>
 
     </main>

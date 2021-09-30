@@ -1,6 +1,5 @@
 body {
     background-color: rgb(11, 10, 26);
-    background-image: url('https://raw.githubusercontent.com/Feguri/My-Website/main/Images/Gifs/stars.gif');
     margin-left: 0;
     font-family: 'Josefin Sans', sans-serif;
     color: white;
@@ -9,7 +8,7 @@ body {
 
 h1 {
     font-size: 42px;
-    margin: 10px auto;
+    margin: 30px auto;
 }
 main {
     margin-top: 70px;
@@ -54,7 +53,7 @@ li {
 }
 
 .logo {
-    padding-left: 30px;
+    padding: 0 30px;
     font-size: 2rem;
     font-weight: bold;
     margin: auto 0;
@@ -64,22 +63,61 @@ section {
     width: 100%;
 }
 
+h2 {
+    font-size: 30px;
+}
 
+p {
+    font-size: 20px;
+    line-height: 1.7rem;
+    letter-spacing: 0.07rem;
+}
+
+figcaption p {
+    font-size: 15px;
+    opacity: 90%;
+    line-height: 1.2rem;
+}
+figcaption a {
+    font-size: 16px;
+    text-decoration: underline;
+}
 .intro {
     display: flex;
     justify-content: center;
-    height: 105px;
+    height: 905px;
     padding: 30px;
     margin-top: 150px;
     border: 1px solid white;
     background-color: #18003f85;
 }
 
+.section {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.about-me {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.picture {
+    width: 320px;
+    height: 320px;
+    border-radius: 15px;
+}
 .intro-container {
     display: flex;
     flex-direction: column;
+    padding-bottom: 50px;
 }
 
 .intro-container p {
     text-align: center;
+}
+
+.logo-container {
+    display: flex;
 }
