@@ -191,11 +191,35 @@ section {
 #birthday {
     background-image: linear-gradient(149deg, #210651ba, #0a39059c);
 }
+#footer {
+    display: flex;
+    justify-content: center;
+    border-bottom: none;
+    background-color: black;
+}
 
+footer p {
+    text-align: center;
+}
 .padding-bottom {
     margin-bottom: 40px;
 }
 
 .padding-top {
     margin-top: 40px;
+}
+
+.icon {
+    height: 50px;
+    width: 50px;
+    padding: 0 50px;
+}
+.icon:hover {
+    opacity: 70%;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0 100px 0;
 }
