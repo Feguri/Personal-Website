@@ -30,12 +30,12 @@ header {
     justify-content: space-between;
     position: fixed;
     z-index:10;
-    background-color: #01002c;
+    background-color: #050512
 }
 
 h1 > span {
     height: 40px;
-    background-color: rgb(23 0 103);
+    background-image: linear-gradient(90deg, #3d1d828f, #052c409c);
     padding: 15px 10px;
     border-radius: 8px;
 }
@@ -55,6 +55,15 @@ nav {
     width: 55%;
 }
 
+.centralize {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.border-radius {
+    border-radius: 15px;
+}
 nav ul {
     margin: 0;
     list-style-type: none;
@@ -70,6 +79,7 @@ article li {
     padding-left: 15px;
     padding-top: 10px;
 }
+
 
 .logo {
     padding: 0 30px;
@@ -101,16 +111,33 @@ figcaption a {
     font-size: 16px;
     text-decoration: underline;
 }
-.intro {
+
+main a {
+    text-decoration: underline;
+}
+section {
     display: flex;
     justify-content: center;
-    height: 860px;
-    padding: 30px;
-    margin-top: 100px;
     border: 1px solid white;
-    background-color: #00033c85;
+    background-color: #0003190d
 }
 
+.intro {
+    padding: 30px;
+    margin-top: 100px;
+    border-top: none;
+}
+
+.section-banner {
+    padding: 30px;
+    margin-top: 100px;
+}
+
+.img-weathery {
+    height: 478px;
+    width: 801px;
+    margin: 30px 0;
+}
 .section {
     display: flex;
     flex-direction: column;
@@ -139,4 +166,18 @@ figcaption a {
 
 .logo-container {
     display: flex;
+}
+
+.h2 {
+    font-size: 42px;
+}
+
+#weathery {
+    background-image: linear-gradient(180deg, #00244d78, #49000045);
+}
+#lorem {
+    background-image: linear-gradient(130deg, #5935139e, #0002ba3d);
+}
+#reddit {
+    background-image: linear-gradient(44deg, #2196f338, transparent);
 }
