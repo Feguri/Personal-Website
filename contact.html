@@ -9,25 +9,35 @@
     <link rel="icon" href="https://raw.githubusercontent.com/Feguri/My-Website/main/Images/favicons/favicon%20(2).ico">
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
+    <script src="Scripts/nav.js" defer></script>
     <title>Contact</title>
 </head>
 <body>
     <header>
         <!-- logo: flexbox -->
         <div class="logo-container">
-            <span class="logo">Felipe Serrou Camy de Paiva</span>
+            <span id="mylogo" class="logo">Felipe Serrou Camy de Paiva</span>
         </div>
 
         <!-- nav: flexbox -->
+        <!-- TODO: add links to href -->
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
+                <li><a href="#top">Home</a></li>
                 <li><a href="about-me.html">About Me</a></li>
                 <li><a href="projects.html">Projects</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
+            <img id="nav" class="icon" src="Icons\menu.png" alt="nav icon">
         </nav>
+
     </header>
+    <nav id="second-nav">
+        <a class="padding-a" href="#top">Home</a>
+        <a class="padding-a" href="about-me.html">About Me</a>
+        <a class="padding-a" href="projects.html">Projects</a>
+        <a class="padding-a" href="contact.html">Contact</a>
+    </nav>
     <main>
         <section class="section-banner">
             <div class="section">

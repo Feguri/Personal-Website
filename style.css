@@ -7,6 +7,20 @@ body {
     scroll-behavior: smooth;
 }
 
+body::-webkit-scrollbar {
+    width: 15px;               /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background-image: linear-gradient(180deg, #2f2fa9, #a76969);      /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #3F51B5cd;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid #03A9F4ff;  /* creates padding around scroll thumb */
+}
+
 top {
     margin-bottom: 50px;
 }
@@ -14,6 +28,104 @@ top {
     .section {
         width: 70% !important;
     }
+}
+
+@media (max-width: 740px) {
+    .section {
+        width: 90% !important;
+        margin-right: 40px !important;
+    }
+    #nav {
+        display: inline !important;
+    }
+    nav ul {
+        display: none !important;
+    }
+    .img-weathery, .lorem {
+        height: 240px !important;
+        width: 450px !important;
+    }
+    .about-me {
+        flex-direction: column;
+    }
+    span {
+        background-image: none !important;
+    
+    }
+    h1 {
+        font-size: 30px !important;
+    }
+}
+
+.padding-a {
+    padding: 0 10px;
+}
+@media (max-width: 1030px) {
+    #mylogo {
+        font-size: 20px !important;
+    }
+    nav li {
+        padding: 0 15px !important;
+    }
+    a {
+        font-size: 1.2rem !important;
+    }
+    .section {
+        width: 90% !important;
+    }
+    .img-weathery, .lorem {
+        height: 377px !important;
+        width: 650px !important;
+    }
+
+}
+
+@media (max-width: 600px) {
+    header nav {
+        justify-content: flex-start !important;
+    }
+    .img-weathery, .lorem {
+        height: 240px !important;
+        width: 450px !important;
+    }
+}
+
+@media (max-width: 500px) {
+    .img-weathery, .lorem {
+        height: 179px !important;
+        
+        width: 311px !important;    
+    }
+    #mylogo {
+        font-size: 15px !important;
+    }
+    #footer-section {
+        margin-left: 40px !important;
+    }
+    .icon-container > a > .icon {
+        padding: 0 20px !important;
+    }
+    .picture {
+        width: 240px !important;
+        height: 240px !important;
+    }
+}
+#nav {
+    display: none;
+}
+
+#second-nav {
+    display: none;
+    margin-top: 70px;
+    height: 70px;
+    border-bottom: 1px solid white;
+    width: 95%;
+    position: fixed;
+    background-color: black;
+}
+
+#ul {
+    display: none;
 }
 
 h1 {
@@ -43,6 +155,7 @@ h1 > span {
     padding: 15px 10px;
     border-radius: 8px;
 }
+
 a {
     text-decoration: none;
     color: white;

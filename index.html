@@ -6,9 +6,9 @@
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="Images/favicons/favicon (2).ico">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="icon" href="https://raw.githubusercontent.com/Feguri/My-Website/main/Images/favicons/favicon%20(2).ico">
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
+    <script src="Scripts/nav.js" defer></script>
     <title>Felipe Serrou</title>
 </head>
 <body>
@@ -17,7 +17,7 @@
     <header>
         <!-- logo: flexbox -->
         <div class="logo-container">
-            <span class="logo">Felipe Serrou Camy de Paiva</span>
+            <span id="mylogo" class="logo">Felipe Serrou Camy de Paiva</span>
         </div>
 
         <!-- nav: flexbox -->
@@ -29,8 +29,16 @@
                 <li><a href="projects.html">Projects</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
+            <img id="nav" class="icon" src="Icons\menu.png" alt="nav icon">
         </nav>
+
     </header>
+    <nav id="second-nav">
+        <a class="padding-a" href="#top">Home</a>
+        <a class="padding-a" href="about-me.html">About Me</a>
+        <a class="padding-a" href="projects.html">Projects</a>
+        <a class="padding-a" href="contact.html">Contact</a>
+    </nav>
     <main>
 
         <!-- Introduction Section -->
@@ -95,7 +103,7 @@
         <section class="section-banner" id="lorem">
             <article class="section">
                 <h2 class="h2">lorem Ipsium Generator</h2>
-                <img class="border-radius" src="Images\lorem-ipsium.png" alt="Lorem-ipsium-image">
+                <img class="border-radius lorem" src="Images\lorem-ipsium.png" alt="Lorem-ipsium-image">
                 <p>I built this useful word-generator for you to fill in your prototypes easily. I have used it myself on the Jurassic World
                     website. Features:
                 </p>
@@ -159,7 +167,7 @@
         <section class="section-banner" id="game-of-divs">
             <div class="section">
                 <h2 class="h2">A Game of divs</h2>
-                <img class="border-radius padding-bottom" src="Images\game.png" alt="Image">
+                <img class="border-radius padding-bottom lorem" src="Images\game.png" alt="Image">
                 <p>This is an interactive JavaScript game that I created for people to explore the powers of CSS, and how it can 
                     transform the style of a div.
                 </p>
@@ -188,7 +196,7 @@
                 <p>This was a tough one. I spent hours trying to figure out the logic of this program, which is
                     basically to assign a requested number of people a random birthday and see if there are any matches.
                 </p>
-                <img src="Images\birth.png" alt="Image of the birthday program running">
+                <img class="lorem" src="Images\birth.png" alt="Image of the birthday program running">
                 <p>The inspiration for that was the birthday paradox. You'd think that there would have to be at least 365 people for any birthday matches
                     to occur, but the chances are at 50% already with only<i> 23 people!*</i>. And it's pretty much 100% with the double of that many people.
                 </p>    
@@ -211,7 +219,7 @@
         </section class="section-banner">
 
         <footer id="footer">
-            <div class="section">
+            <div class="section" id="footer-section">
                 <article>
                     <p>You have reached the bottom of the page!</p>
                 </article>
@@ -227,6 +235,15 @@
                         <img class="icon" src="Icons\5296501_linkedin_network_linkedin logo_icon.png" alt="Linkedin icon">
                     </a>
                 </div>
+
+                <div class="centralize padding-bottom">
+                    <article>
+                        <h2>Attributes:</h2>
+                        <a href="https://www.flaticon.com/authors/flat-icons" target="_blank">https://www.flaticon.com/authors/flat-icons</a>
+                    </article>
+                </div>
+
+
 
             </div>
         </footer>
