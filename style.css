@@ -4,9 +4,11 @@ body {
     font-family: 'Josefin Sans', sans-serif;
     color: white;
     overflow-x: hidden;
-    scroll-behavior: smooth;
 }
 
+* {
+    scroll-behavior: smooth;
+}
 body::-webkit-scrollbar {
     width: 15px;               /* width of the entire scrollbar */
   }
