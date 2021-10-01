@@ -1,0 +1,191 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Images/favicons/favicon (2).ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="icon" href="https://raw.githubusercontent.com/Feguri/My-Website/main/Images/favicons/favicon%20(2).ico">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
+    <title>Projects</title>
+</head>
+<body>
+    <header>
+        <!-- logo: flexbox -->
+        <div class="logo-container">
+            <span class="logo">Felipe Serrou Camy de Paiva</span>
+        </div>
+
+        <!-- nav: flexbox -->
+        <!-- TODO: add links to href -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about-me.html">About Me</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- Weathery project -->
+        <section class="section-banner" id="weathery">
+            <div class="section">
+                <h2 class="h2">Weathery</h2>
+                <p>Weathery was the first program with a user interface that I ever created.
+                It was written in python, the first programming language that I learned back in 2020.
+                Its features include a button that allows you to change the temperature from farenheit to celsius, choose the location, 
+                    see the weather report for the week and a secret music option!
+                </p>
+                <p>I have plans to build a demo version in JavaScript that will run on this website.</p>
+                <p>Here are three screenshots of the program running on Pycharm:</p>
+                <img class="img-weathery border-radius" src="https://i.imgur.com/ezN8ssp.png" alt="Weathery-pic-1">
+                <img class="img-weathery border-radius"  src="https://i.imgur.com/Nszgnpg.png" alt="Weathery-pic-2">
+                <img class="img-weathery border-radius"  src="https://i.imgur.com/8drLdPX.png" alt="Weathery-pic-3">
+            </div>
+        </section>
+
+        <section class="section-banner" id="lorem">
+            <article class="section">
+                <h2 class="h2">lorem Ipsium Generator</h2>
+                <img class="border-radius" src="Images\lorem-ipsium.png" alt="Lorem-ipsium-image">
+                <p>I built this useful word-generator for you to fill in your prototypes easily. I have used it myself on the Jurassic World
+                    website. Features:
+                </p>
+                <ul>
+                    <li>Change Each paragraph's length</li>
+                    <li>Neat gradient design</li>
+                    <li>Responsive design</li>
+                </ul>
+                <p>This Website is deployed on Github. You can access it by <a href="https://feguri.github.io/Lorem-Ipsium/" target="_blank">clicking on this link.</a></p>
+
+            </article>
+
+        </section>
+<!-- 
+        <section class="section-banner">
+            <div class="section">
+                <h2 id="h2">Jurassic World's Website</h2>
+                <p>You can access this website <a href="https://feguri.github.io/Jurassic-wordly/" target="_blank">here</a>.</p>
+                <p>What would Jurassic World's website look like?</p>
+
+                <ul>
+                    <li>Responsive design with media queries & CSSgrid</li>
+                    <li>Neat gradient design</li>
+                    <li>Responsive design</li>
+                </ul>
+            </div>
+
+        </section> -->
+
+        <!-- Comment Analyzer reddit section -->
+        <section class="section-banner" id="reddit">
+            <div class="section">
+                <article>
+                    <h2 class="h2">Comment Analyzer for Reddit</h2>
+                    <p>This is a Back-End Web-Scraping program that I coded with python. Like many other projects, the inspiration for this program to be created
+                        was a real-life problem. I wanted to analyze data from the comment section to see how much of x word is in the comments, and then
+                        display the result both in numbers and percentages. Here is a video of this software being used:
+                    </p>
+                </article>
+                <div class="centralize" style="padding: 40px 0;">
+                    <iframe width="730" height="410" src="https://www.youtube.com/embed/vX-ZG5A0P_E"
+                    frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <article>
+                    <p>It returns the results in a numerical dictionary sorted in a top-to-bottom hierarchichal pattern.
+                        It features:
+                    </p>
+                    <ul>
+                        <li>An advanced bubble sort algorithm</li>
+                        <li>Advanced python concepts like decorator functions & object oriented programming.</li>
+                        <li>Selenium Web scraping technology</li>
+                        <li>Tutorial of installation on GitHub</li>
+                    </ul>
+                    <p class="padding-top">You can browse the code by clicking <a href="https://github.com/Feguri/Comment-analyzer-for-Reddit">here</a></p>
+                </article>
+            </div>
+
+        </section>
+
+        <!-- Game Of Divs Section! -->
+        <section class="section-banner" id="game-of-divs">
+            <div class="section">
+                <h2 class="h2">A Game of divs</h2>
+                <img class="border-radius padding-bottom" src="Images\game.png" alt="Image">
+                <p>This is an interactive JavaScript game that I created for people to explore the powers of CSS, and how it can 
+                    transform the style of a div.
+                </p>
+                <p>The main goal was for me to practice DOM with JS by adding interactivity to the site. You can visit it now and play
+                    by clicking <a href="https://feguri.github.io/game-of-divs/" target="_blank">here</a>.
+                </p>
+            </div>
+        </section>
+        
+        <!-- Random-color Website section -->
+        <section class="section-banner">
+            <div class="section">
+                <h2 class="h2">Random Color Website</h2>
+                <p>This was my first ever DOM project, so I had to keep it simple.
+                    <a href="https://feguri.github.io/RandomColorWebsite/"> Navigate to the website</a> and see which random color you get!
+                     Refresh the page to see new colors.
+                </p>
+
+            </div>
+        </section>
+
+        <!-- Birthday project session -->
+        <section class="section-banner" id="birthday">
+            <div class="section">
+                <h2 class="h2">Birthday Simulator</h2>
+                <p>This was a tough one. I spent hours trying to figure out the logic of this program, which is
+                    basically to assign a requested number of people a random birthday and see if there are any matches.
+                </p>
+                <img src="Images\birth.png" alt="Image of the birthday program running">
+                <p>The inspiration for that was the birthday paradox. You'd think that there would have to be at least 365 people for any birthday matches
+                    to occur, but the chances are at 50% already with only<i> 23 people!*</i>. And it's pretty much 100% with the double of that many people.
+                </p>    
+                <p>Weird, isn't it? Well, it turns out that our perception is like that because we are <i>selfish.</i> We always think of the birthday
+                    match to <em>ourselves</em>, but never with <em>the rest of the room.</em> The chances increase exponentiolly as the number of people
+                    in that room increase. I realised that while coding because the logic algorithm has to compare <i>everyone</i> with <i>everyone else.
+                    </i>
+                </p>    
+
+                <p>To calculate the probability, I used this formula from the thorough
+                <a href="https://en.wikipedia.org/wiki/Birthday_problem"> Wikipedia description</a> of the problem.
+                </p>
+
+                <p>To understand it better, I also watched <a href="https://www.youtube.com/watch?v=ofTb57aZHZs&ab_channel=Vsauce2">Kevin's "Vsauce1" video</a>
+                      that elegantly explains the paradox.</p>
+
+                <p>You can access the application's Github repository by clicking <a href="https://github.com/Feguri/Birthday">here.</a></p>
+
+            </div>
+        </section class="section-banner">
+
+        <footer id="footer">
+            <div class="section">
+                <article>
+                    <p>You have reached the bottom of the page!</p>
+                </article>
+
+                <div class="icon-container">
+                    <a href="https://www.facebook.com/felipe.s.paiva.9/" target="_blank">
+                        <img class="icon" src="Icons\317752_facebook_social media_social_icon.png" alt="Facebook Icon">
+                    </a>
+                    <a href="https://github.com/Feguri/" target="_blank">
+                        <img class="icon" src="Icons\1298743_github_git_logo_social_icon.png" alt="Github Icon">
+                    </a>
+                    <a href="https://www.linkedin.com/in/felipe-serrou-camy-de-paiva-2354a6213/" target="_blank">
+                        <img class="icon" src="Icons\5296501_linkedin_network_linkedin logo_icon.png" alt="Linkedin icon">
+                    </a>
+                </div>
+
+            </div>
+        </footer>
+    </main>
+    
+</body>
+</html>
