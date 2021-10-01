@@ -7,13 +7,13 @@
     <link rel="icon" href="Images/favicons/favicon (2).ico">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="icon" href="https://raw.githubusercontent.com/Feguri/My-Website/main/Images/favicons/favicon%20(2).ico">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;300&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=KoHo:wght@300&family=Orbitron&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
     <title>Felipe Serrou</title>
 </head>
 <body>
+
+    <!-- Fixed headder -->
     <header>
         <!-- logo: flexbox -->
         <div class="logo-container">
@@ -24,7 +24,7 @@
         <!-- TODO: add links to href -->
         <nav>
             <ul>
-                <li><a href="">Home</a></li>
+                <li><a href="#top">Home</a></li>
                 <li><a href="">About Me</a></li>
                 <li><a href="">Projects</a></li>
                 <li><a href="">Contact</a></li>
@@ -34,7 +34,7 @@
     <main>
 
         <!-- Introduction Section -->
-        <section class="intro">
+        <section class="intro" id="intro top">
             <div class="section">
                 <div class="intro-container">
                     <h1>Hello. I'm a <span>Web Development</span> student.</h1>
@@ -49,7 +49,7 @@
                         <br>
                         <h2>Projects</h2>
                         <ul>
-                            <li><a href="">Weathery</a></li>
+                            <li><a href="#weathery">Weathery</a></li>
                             <li><a href="">Lorem Ipsium Generator</a></li>
                             <li><a href="">Jurassic World's Website</a></li>
                             <li><a href="">Comment Analyzer for Reddit</a></li>
@@ -62,7 +62,7 @@
                     <figure>
                         <img class="picture" src="https://avatars.githubusercontent.com/u/82775159?s=400&u=ac919126cda31d995dd2fff53f70b8d4e613e8a8&v=4" 
                         alt="A picture of me.">
-                        <figcaption><p>This is me right after I finished <a href="">Weathery</a> , my first UI program.</p></figcaption>
+                        <figcaption><p>This is me right after I finished <a href="">Weathery</a>, my first UI program.</p></figcaption>
                     </figure>
                 </div>
             </div>
@@ -142,17 +142,25 @@
                         <li>Selenium Web scraping technology</li>
                         <li>Tutorial of installation on GitHub</li>
                     </ul>
+                    <p class="padding-top">You can browse the code by clicking <a href="https://github.com/Feguri/Comment-analyzer-for-Reddit">here</a></p>
                 </article>
             </div>
 
         </section>
 
-        <section class="section-banner">
+        <!-- Game Of Divs Section! -->
+        <section class="section-banner" id="game-of-divs">
             <div class="section">
                 <h2 class="h2">A Game of divs</h2>
+                <img class="border-radius padding-bottom" src="Images\game.png" alt="Image">
+                <p>This is an interactive JavaScript game that I created for people to explore the powers of CSS, and how it can 
+                    transform the style of a div.
+                </p>
+                <p>The main goal was for me to practice DOM with JS by adding interactivity to the site. You can visit it now and play
+                    by clicking <a href="https://feguri.github.io/game-of-divs/" target="_blank">here</a>.
+                </p>
 
             </div>
-
         </section>
 
         <section class="section-banner">
