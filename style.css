@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: #000319;
     margin-left: 0;
     font-family: 'Josefin Sans', sans-serif;
     color: white;
@@ -187,6 +187,9 @@ section {
 }
 #game-of-divs {
     background-image: linear-gradient(44deg, #06225170, #05392b6e);
+}
+#birthday {
+    background-image: linear-gradient(149deg, #210651ba, #0a39059c);
 }
 
 .padding-bottom {

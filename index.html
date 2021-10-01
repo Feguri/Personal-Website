@@ -133,7 +133,7 @@
                     frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
                 <article>
-                    <p>It returns the results in a numerical dictionary sorted in a top-to-bottom hierarchichal pattern by a bubble sort algorithm.
+                    <p>It returns the results in a numerical dictionary sorted in a top-to-bottom hierarchichal pattern.
                         It features:
                     </p>
                     <ul>
@@ -159,21 +159,46 @@
                 <p>The main goal was for me to practice DOM with JS by adding interactivity to the site. You can visit it now and play
                     by clicking <a href="https://feguri.github.io/game-of-divs/" target="_blank">here</a>.
                 </p>
-
             </div>
         </section>
-
+        
+        <!-- Random-color Website section -->
         <section class="section-banner">
             <div class="section">
                 <h2 class="h2">Random Color Website</h2>
+                <p>This was my first ever DOM project, so I had to keep it simple.
+                    <a href="https://feguri.github.io/RandomColorWebsite/"> Navigate to the website</a> and see which random color you get!
+                     Refresh the page to see new colors.
+                </p>
 
             </div>
 
         </section>
 
-        <section class="section-banner">
+        <section class="section-banner" id="birthday">
             <div class="section">
                 <h2 class="h2">Birthday Simulator</h2>
+                <p>This was a tough one. I spent hours trying to figure out the logic of this program, which is
+                    basically to assign a requested number of people a random birthday and see if there are any matches.
+                </p>
+                <img src="Images\birth.png" alt="Image of the birthday program running">
+                <p>The inspiration for that was the birthday paradox. You'd think that there would have to be at least 365 people for any birthday matches
+                    to occur, but the chances are at 50% already with only<i> 23 people!*</i>. And it's pretty much 100% with the double of that many people.
+                </p>    
+                <p>Weird, isn't it? Well, it turns out that our perception is like that because we are <i>selfish.</i> We always think of the birthday
+                    match to <em>ourselves</em>, but never with <em>the rest of the room.</em> The chances increase exponentiolly as the number of people
+                    in that room increase. I realised that while coding because the logic algorithm has to compare <i>everyone</i> with <i>everyone else.
+                    </i>
+                </p>    
+
+                <p>To calculate the probability, I used this formula from the thorough
+                <a href="https://en.wikipedia.org/wiki/Birthday_problem"> Wikipedia description</a> of the problem.
+                </p>
+
+                <p>To understand it better, I also watched <a href="https://www.youtube.com/watch?v=ofTb57aZHZs&ab_channel=Vsauce2">Kevin's "Vsauce1" video</a>
+                      that elegantly explains the paradox.</p>
+
+                <p>You can access the application's Github repository by clicking <a href="https://github.com/Feguri/Birthday">here.</a></p>
 
             </div>
 
