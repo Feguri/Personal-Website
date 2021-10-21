@@ -312,6 +312,9 @@ section {
 #birthday {
     background-image: linear-gradient(149deg, #210651ba, #0a39059c);
 }
+#game-idea {
+    background-image: linear-gradient(149deg, #ac440eba, #0255b49c);
+}
 #footer {
     display: flex;
     justify-content: center;
