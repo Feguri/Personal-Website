@@ -6,6 +6,10 @@ body {
     overflow-x: hidden;
 }
 
+img {
+    padding-bottom: 30px;
+}
+
 * {
     scroll-behavior: smooth;
 }
@@ -43,7 +47,7 @@ top {
     nav ul {
         display: none !important;
     }
-    .img-weathery, .lorem {
+    .img-weathery {
         height: 240px !important;
         width: 450px !important;
     }
@@ -75,7 +79,7 @@ top {
     .section {
         width: 90% !important;
     }
-    .img-weathery, .lorem {
+    .img-weathery{
         height: 377px !important;
         width: 650px !important;
     }
@@ -86,14 +90,14 @@ top {
     header nav {
         justify-content: flex-start !important;
     }
-    .img-weathery, .lorem {
+    .img-weathery {
         height: 240px !important;
         width: 450px !important;
     }
 }
 
 @media (max-width: 500px) {
-    .img-weathery, .lorem {
+    .img-weathery {
         height: 179px !important;
         
         width: 311px !important;    
@@ -314,6 +318,12 @@ section {
 }
 #game-idea {
     background-image: linear-gradient(149deg, #ac440eba, #0255b49c);
+}
+#starfleet {
+    background-image: url('https://raw.githubusercontent.com/Feguri/My-Website/main/Images/Gifs/stars.gif');
+}
+#to-do {
+    background-image: linear-gradient(149deg, #0eac8ba3, #4d0ab95e)
 }
 #footer {
     display: flex;
